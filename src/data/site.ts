@@ -11,7 +11,7 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/santino-tisi-286bbb275/",
   github: "", // ejemplo: "https://github.com/tu-usuario"
   // Solo números, con 549 adelante y sin espacios ni "+". Ejemplo: "5491112345678"
-  whatsapp: "",
+  whatsapp: "5491141777285",
   whatsappMessage: "Hola Santino, vi tu portfolio y quiero consultarte por un proyecto.",
 };
 
