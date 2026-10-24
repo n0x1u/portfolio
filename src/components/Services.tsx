@@ -10,7 +10,7 @@ export default function Services() {
           title="Lo que puedo hacer por tu empresa"
           subtitle="Soluciones digitales completas, desde la idea hasta que está funcionando."
         />
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}

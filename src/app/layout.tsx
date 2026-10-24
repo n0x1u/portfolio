@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 // Título y descripción que aparecen en la pestaña del navegador y en Google.
 export const metadata: Metadata = {
-  title: `${site.name} | Desarrollo web y apps para empresas`,
+  title: `${site.name} | Webs y sistemas para pymes`,
   description: hero.subtitle,
 };
 

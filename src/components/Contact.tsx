@@ -1,10 +1,10 @@
-import { site } from "@/data/site";
+import { site, whatsappUrl } from "@/data/site";
 
 export default function Contact() {
   const socials = [
     { label: "LinkedIn", url: site.linkedin },
     { label: "GitHub", url: site.github },
-    { label: "WhatsApp", url: site.whatsapp },
+    { label: "WhatsApp", url: whatsappUrl },
   ].filter((social) => social.url !== "");
 
   return (
