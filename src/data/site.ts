@@ -73,11 +73,19 @@ export const process = [
   },
 ];
 
-// Cuando tengas proyectos, agregalos acá siguiendo este formato:
-// { title: "Nombre", description: "Qué hiciste", url: "https://...", tags: ["Next.js"] },
+// Para sumar un proyecto, copiá un bloque { ... } y cambiá los datos.
+// La captura va en la carpeta public/proyectos/ (ideal: 1440x900 px).
 export const projects: {
   title: string;
   description: string;
-  url?: string;
-  tags: string[];
-}[] = [];
+  url: string;
+  image: string;
+}[] = [
+  {
+    title: "PlayGame – Ecommerce de juguetes",
+    description:
+      "Tienda online con carrito funcional y buscador de regalos por edad.",
+    url: "https://landing-demo-red.vercel.app",
+    image: "/proyectos/playgame.png",
+  },
+];
